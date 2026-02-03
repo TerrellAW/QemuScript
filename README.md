@@ -4,7 +4,7 @@ This bash script is a template that can be used to configure [Qemu](https://www.
 
 To start working with a Qemu virtual machine create a directory for it and add:
 
-- The Operating System's [ISO](#ISO-File) file or [CD/DVD](#CD/DVD)
+- The Operating System's [ISO](#ISO-File) file or the [CD/DVD](#CD-or-DVD)
 - [Create the virtual hard disk](#Create-Hard-Disk)
 - This script template, modified for your needs
 
@@ -18,7 +18,7 @@ If the OS was downloaded as an ISO file from the internet
 simply put the file in your virtual machine's directory and give it a shorter name. In the script change `-cdrom install.iso \` to
 use the actual file name, such as `-cdrom debian.iso \`.
 
-#### CD/DVD
+#### CD or DVD
 
 If you have a physical disk for the OS comment out the `-cdrom install.iso \` like so `#-cdrom install.iso \`.
 Next uncomment the command that creates a variable that allows Qemu to access your drive.
