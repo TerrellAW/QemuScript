@@ -8,6 +8,8 @@ To start working with a Qemu virtual machine create a directory for it and add:
 - [Create the virtual hard disk](#Create-Hard-Disk)
 - This script template, modified for your needs
 
+Be sure to check the [Post-Installation](#Post-Installation) section after configuring the VM.
+
 ### Getting an Operating System
 
 An operating system can be found online or installed from a CD or DVD. 
