@@ -10,9 +10,12 @@ qemu-system-x86_64 \
   -smp 2 \
   -enable-kvm \
   -cdrom install.iso \
-  #$CDROM \ # Uses commented CDROM variable
-  -boot order=d \ # Change to order=c after successful install
-  -drive file=osname.qcow2,format=qcow2 \ # Generate 50G Virtual HDD with qemu-img create -f qcow2 osname.qcow2 50G
+  # Uses commented CDROM variable
+  #$CDROM \
+  # Change to order=c after successful install
+  -boot order=d \
+  # Generate 50G Virtual HDD with qemu-img create -f qcow2 osname.qcow2 50G
+  -drive file=osname.qcow2,format=qcow2 \
   -machine type=pc \
   -vga std \
   -net nic \
