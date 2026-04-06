@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Delete all comments before running the VM!
+
 # Uncomment for piping in actual CD/DVD drive
 #CDROM=""
 #[[ -b "/dev/sr0" ]] && CDROM="-cdrom /dev/sr0"

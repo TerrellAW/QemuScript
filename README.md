@@ -53,3 +53,7 @@ The `50G` specifies the size of the drive. Decrease or increase the number as ne
 After the OS has been installed to your virtual machine, find `-boot order=d \` in the script and change it to
 `-boot order=c \` so the VM boots directly into the OS. Some operating systems require you to keep the install disk for booting
 so be sure to keep either the `-cdrom osname.iso \` line or the `$CDROM \` line uncommented.
+
+### Troubleshooting
+
+For some reason the comments seem to be cutting off the script. If your VM can't detect the qcow2 disk you created for it, delete all comments from the script.
